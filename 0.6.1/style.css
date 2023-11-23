@@ -1,0 +1,59 @@
+tr:first-child {
+background-color: black;
+color: white;
+border: none;
+}
+
+td, th {
+padding: 10px;
+text-align: start;
+}
+
+table {
+border-collapse: collapse;
+}
+tr:nth-child(1) {
+background-color: black;
+color: white;
+border: none;
+}
+
+td, th {
+padding: 10px;
+text-align: start;
+}
+
+table {
+border-collapse: collapse;
+}
+
+tr {
+transition: all 0.3s ease-in-out;
+}
+
+tr:nth-child(odd):not(:first-child) {
+background-color: #cccfcd;
+text-decoration: none;
+}
+tr:not(:first-child):hover {
+background-color: #e6e8e7;
+color: white;
+}
+.youtube{
+background-color: #CC0000;
+color: white;
+padding: 8px;
+border-radius: 15px;
+text-decoration: none;
+}
+.instagram{
+background-color:  #EA0C5F;
+color: white;
+padding: 8px;
+border-radius: 15px;
+text-decoration: none;
+}
+
+td:hover{
+transform: scale(1.1);
+}
